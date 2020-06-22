@@ -1,3 +1,3 @@
 # homepage
 
-https://mcchung52.github.io/homepage/
+http://mcchung52.github.io/homepage/
