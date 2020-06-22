@@ -5,21 +5,128 @@
   <title>My Home Page</title>
 </head>
 <body>
-    <h1>My Home Page</h1>
+    <h1 style="text-decoration: underline">Projects</h1>
+    <br>
+    
+    <h3>DYNAMIC PAGES</h3>
+    
+    <table>
+      <thead align='left'>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Technology used</th>
+        <th>Source</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="https://immense-stream-3657.herokuapp.com/">Bookmarks</a></td>
+          <td><p>uses React.js with Flux pattern to create, delete and like a website link. Data is persisted on server memory per user session, defined by its IP address.</p></td>
+          <td>React.js, Flux, Node.js, Express.js, jspm</td>
+          <td><a href="https://github.com/mcchung52/bookmark.reactjs">GitHub</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://mighty-gorge-2445.herokuapp.com/">User Auth Template</a></td>
+          <td><p>implements a user login module by using cookie authentication and stores user info in a Mongo database</p></td>
+          <td>Node.js, Express.js, MongoDB, Jade, jQuery, AJAX, Bootstrap, bcrypt, cookie auth</td>
+          <td><a href="https://github.com/mcchung52/017.user-auth">GitHub</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://murmuring-shore-7599.herokuapp.com/">Contacts List</a></td>
+          <td><p>implements a contacts management list using a JSON file on a Node server on Heroku. Uses a Bootstrap modal dialog.</p></td>
+          <td>Node.js, Express.js, Jade, jQuery, Bootstrap, JSON</td>
+          <td><a href="https://github.com/mcchung52/012.contacts.with.express">GitHub</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://stormy-lake-6762.herokuapp.com">Tags and Links</a></td>
+          <td><p>stores and lets you manage weblinks by naming them and tagging them</p></td>
+          <td></td>
+          <td><a href=""></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://murmuring-river-9935.herokuapp.com/">Markdown Converter</a></td>
+          <td><p>uses a node package called 'marked' to convert markdown text to html. 
+                 Text is sent to a Node server on Heroku.</p></td>
+          <td>Node.js, Express.js, Jade, jQuery, Bower</td>
+          <td><a href="https://github.com/mcchung52/011.markdown.converter">GitHub</a></td>
+        </tr>
+        <tr>
+          <td><a href="">Social Login</a></td>
+          <td><p></p></td>
+          <td>Angular.js, Satellizer (Token-based Angular.js authentication), JWT, moment.js</td>
+          <td><a href=""></a></td>
+        </tr>
+        <tr>
+          <td><a href=""></a></td>
+          <td><p></p></td>
+          <td></td>
+          <td><a href=""></a></td>
+        </tr>
+      </tbody>
+    </table>
 
-    <div class="container">
-      <ol>
-        <li><a href="http://mcchung52.github.io/003.calculator">Calculator</a></li>
-        <li><a href="http://mcchung52.github.io/004.hanoi">Towers of Hanoi</a></li>
-        <li><a href="http://mcchung52.github.io/005.ToDoList">To Do List</a></li>
-        <li><a href="http://mcchung52.github.io/006.contacts">Contact Lists</a></li>
-        <li><a href="http://mcchung52.github.io/007.weather">Weather</a></li>
-        <li><a href="http://mcchung52.github.io/007.pokemon">Pokemon</a></li>
-      </ol>
-      
-      <p>Angular</p>
-      <a href="http://mcchung52.github.io/swapi.angular.directive/">Angular example using Star Wars API & custom directive</a>
-    </div>
+    
+    <h3>STATIC PAGES</h3>
+
+    <table>
+      <thead align='left'>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Technology used</th>
+        <th>Source</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="http://mcchung52.github.io/bmc">Pixel perfect UI mockup</a></td>
+          <td><p>was developed according to specific user specifications detailing down to specific pixels</p></td>
+          <td>Angular (custom directive & AJAX), jQuery, Bootstrap</td>
+          <td><a href="https://github.com/mcchung52/bmc">GitHub*</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://mcchung52.github.io/swapi.angular.directive/">Star Wars API</a></td>
+          <td><p>uses Star Wars API to list characters by their home planets</p></td>
+          <td>Angular (custom directive & AJAX), HTML, CSS, Javascript</td>
+          <td><a href="https://github.com/mcchung52/swapi.angular.directive">GitHub</td>
+        </tr>
+        <tr>
+          <td><a href="http://mcchung52.github.io/003.calculator">Calculator</a></td>
+          <td><p>implements a web version of a handheld calculator using finite state machine</p></td>
+          <td>jQuery, Javascript, HTML, CSS</td>
+          <td><a href="https://github.com/mcchung52/003.calculator">GitHub*</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://mcchung52.github.io/004.hanoi">Towers of Hanoi</a></td>
+          <td><p>is a famous computer science puzzle involving moving discs</p></td>
+          <td>jQuery, Javascript, HTML, CSS</td>
+          <td><a href="https://github.com/mcchung52/004.hanoi">GitHub*</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://mcchung52.github.io/005.ToDoList">To Do List</a></td>
+          <td><p>implements a simple todo list (non data persistent version)</p></td>
+          <td>jQuery, Bootstrap, Javascript, HTML, CSS</td>
+          <td><a href="https://github.com/mcchung52/005.ToDoList">GitHub*</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://mcchung52.github.io/006.contacts">Contacts List</a></td>
+          <td>implements a contacts management list using browser's local storage</td>
+          <td>jQuery, Bootstrap, Javascript, HTML, CSS</td>
+          <td><a href="https://github.com/mcchung52/006.contacts">GitHub*</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://mcchung52.github.io/007.weather">Weather</a></td>
+          <td><p>uses Weather Underground API to get current user's location and reports current weather condition along with 4-day forecast</p></td>
+          <td>WeatherUnderground API, jQuery, AJAX, Bootstrap, Javascript, HTML, CSS</td>
+          <td><a href="https://github.com/mcchung52/007.weather">GitHub*</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://mcchung52.github.io/007.pokemon">Pokemon</a></td>
+          <td>uses Pokemon API to return information about a Pokemon character</td>
+          <td>Pokemon API, jQuery, AJAX, Bootstrap, Javascript, HTML, CSS</td>
+          <td><a href="https://github.com/mcchung52/007.pokemon">GitHub*</a></td>
+        </tr>
+      </tbody>
+    </table>
+    <p>*Note: branch 'gh-pages' has the latest update</p>
+
 
 </body>
 </html>
